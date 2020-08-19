@@ -1,0 +1,92 @@
+.row {
+
+}
+.column {
+  width: 1.3em;
+  height: 1.3em;
+  margin: 0px -2px 0px -2px;
+  display: inline-block;
+  background-color: rgb(42, 191, 195);
+  border: black 1px solid;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+.columnBlocked {
+  background-color: rgb(35, 164, 147);
+  font-weight: 700;
+}
+.column:hover {
+  background-color: rgb(35, 164, 147);
+  font-weight: 700;
+}
+.hLine {
+  height: 1.3em;
+  width: 0.3em;
+  margin: 0px -2px 0px -2px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.vLine {
+  height: 0.3em;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+.container{
+  margin: auto;
+  background-color: black;
+  width: 20.4em;
+  height: 23.3em;
+}
+.title1{
+  font-family: 'Roboto';
+  background-color: rgb(9, 111, 110);
+  color: white;
+  margin: 0px;
+  margin-bottom: -5px;
+  border: 5px solid black;
+  font-weight: 300;
+  text-align: center;
+}
+.btn-select {
+  width: 50%;
+  height: 25px;
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+  border-radius: 5px;
+  font-family: 'Roboto';
+}
+.btn-select:hover {
+  cursor: pointer;
+}
+.btn-refresh {
+  width: 50%;
+  height: 50px;
+  background-color: rgb(42, 191, 195);
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.btn-refresh:hover {
+  cursor: pointer;
+  background-color: rgb(35, 164, 147);
+  border: 3px solid black;
+  color: white;
+}
